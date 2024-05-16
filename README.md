@@ -1,16 +1,49 @@
-# my_app
+# Quote App
 
-A new Flutter project.
+This is a simple Flutter app that displays a list of quotes and allows users to view the details of
+each quote. It utilizes Riverpod for state management, Dio for networking, and includes two main
+screens: HomeScreen and QuoteDetailsScreen.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Display a list of quotes on the HomeScreen.
+- Navigate to the QuoteDetailsScreen to view the details of a selected quote.
+- Fetch quotes from a remote API using Dio.
+- Manage app state using Riverpod for seamless data flow.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    ```bash
+    git clone https://github.com/kajalparmarkp99/flutter_test.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd flutter_test
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    flutter pub get
+    ```
+
+4. Run the app:
+
+    ```bash
+    flutter run
+    ```
+
+## Dependencies
+
+- [flutter](https://flutter.dev/)
+- [riverpod](https://pub.dev/packages/riverpod)
+- [dio](https://pub.dev/packages/dio)
+
+## Screenshots
+
+![Alt text](assets/Screenshot_1.png)
+![Alt text](assets/Screenshot_2.png)
