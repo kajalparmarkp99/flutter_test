@@ -9,9 +9,12 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return const ProviderScope(
+    return  ProviderScope(
       child: MaterialApp(
-        home: HomeScreen(),
+        home:Consumer(builder: (context, ref, _) {
+          final fetchQuotesUsecase = ref.read(fetchQuotesUsecaseProvider);
+          return HomeScreen(fetchQuotesUsecase: fetchQuotesUsecase);
+        }),
       ),
     );
   }
