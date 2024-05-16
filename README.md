@@ -45,5 +45,5 @@ screens: HomeScreen and QuoteDetailsScreen.
 
 ## Screenshots
 
-![Alt text](assets/Screenshot_1.png)
-![Alt text](assets/Screenshot_2.png)
+![Alt text](assets/screenshot_1.png)
+![Alt text](assets/screenshot_2.png)
